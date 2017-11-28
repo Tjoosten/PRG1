@@ -44,7 +44,7 @@ namespace oefening_array_1
                     double euro = bedrag + koers[code - 1];
 
                     // Berekening afdrukken 
-                    Console.WriteLine(bedrag.ToString() + " is " + euro.ToString() + " Euro");
+                    Console.WriteLine(bedrag.ToString() + " " + munt[code - 1] + " is " + euro.ToString() + " Euro");
                 }
             }
 
